@@ -1,0 +1,20 @@
+\documentclass[german]{scrreprt}
+
+\input{files/preamble}
+
+\includeonly{
+    files/title,
+    files/01Introduction,
+    files/02Methods,
+    files/03Results,
+    files/04Discussion,
+}
+
+\begin{document}
+\include{files/title}
+\tableofcontents
+\include{files/01Introduction}
+\include{files/02Methods}
+\include{files/03Results}
+\include{files/04Discussion}
+\end{document}
